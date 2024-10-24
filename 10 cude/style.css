@@ -56,6 +56,7 @@ nav li.active{
 }
 
 /* service - pjesa e gjelber */
+
 #service{
 	background-color: #17c2a4;
 	min-height: 745px;
@@ -105,14 +106,32 @@ nav li.active{
 	line-height: 26px;
 }
 
-
+/* team - pjesa e kalter e hapur */
 
 #team{
 	background-color: #c8d9e5;
+	color: black;
+	margin: 0px;
+	padding: 50px;
 }
+.horizontal-item h3{
+	color: deepskyblue;
+}
+
+
+/* skills - pjesa e bardhe */
+
+#skills{
+	color: black;
+	margin: 0px;
+	padding: 50px;
+}
+
+/* portfolio - pjesa e verdhe */
 
 #portfolio{
 	background-color: #ffdd99;
+	color: black;
 }
 
 #reviews{
