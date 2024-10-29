@@ -132,15 +132,94 @@ nav li.active{
 #portfolio{
 	background-color: #ffdd99;
 	color: black;
+	margin: 0px;
+	padding: 50px;
 }
+#portfolio-nav{
+	margin-top: 50px;
+}
+#portfolio-nav li{
+	display: inline-block;
+	padding: 10px 16px;
+	background-color: #ebc985;
+	border-radius: 5px;
+}
+#portfolio-nav a{
+	text-decoration: none;
+	color: black;
+}
+#portfolio-nav li.active{
+	background-color: white;
+}
+
+.vertical-box{
+	margin: 80px;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+	padding-bottom: 100px;
+	flex-wrap: wrap;
+	row-gap: 50px;
+	justify-content: center;
+}
+.vertical-item{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: center;
+}
+
+.vertical-box button{
+	background-color: #17c2a4;
+	font-size: 18px;
+	border-radius: 5px;
+	padding: 25px 85px;
+	color: white;
+	border: 0px;
+	box-shadow: inset 0px -11px 8px -10px gray;
+}
+
+/* reviews - pjesa e kuqe */
 
 #reviews{
 	background-color: #d74680;
+	margin: 0px;
+	padding: 50px;
 }
+
+/* contact - pjesa e kalter */
 
 #contact{
 	background-color: #3c5499;
+	margin: 0px;
+	padding: 50px;
 }
+.contact-form{
+	max-width: 860px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-row{
+	display: flex;
+}
+
+input[type="text"], input[type="email"]{
+	width: 46%;
+	height: 56px;
+}
+
+input[type="text"], input[type="email"], textarea{
+	font-family: "Titillum Web", sans-serif;
+	color: white;
+	background-color: #273a71;
+	border: none;
+	font-size: 18px;
+	margin: 16px;
+	border-radius: 5px;
+	padding-left: 26px;
+}
+
 
 footer{
 	background-color: #344b8e;
