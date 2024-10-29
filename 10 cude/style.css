@@ -220,7 +220,57 @@ input[type="text"], input[type="email"], textarea{
 	padding-left: 26px;
 }
 
+textarea{
+	height: 200px;
+	width: 100%;
+	padding-top: 24px;
+}
+input[type="text"]::placeholder, input[type="email"]::placeholder, textarea::placeholder{
+	color: white;
+}
+input[type="button"]{
+	background-color: #30bae7;
+	border: none;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	margin-top: 60px;
+	text-transform: uppercase;
+	padding: 25px 85px;
+	color: white;
+}
+
+/* footer - pjesa e fundit */
 
 footer{
 	background-color: #344b8e;
+	margin: 0px;
+	padding: 20px;
+}
+#footer-nav{
+	max-width: 945px;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer nav{
+	padding-top: 25px;
+}
+footer ul{
+	margin: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	display: flex;
+}
+footer li{
+	display: inline-block;
+	padding: 10px 20px 10px 20px;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+}
+footer a.active{
+	color: deepskyblue;
 }
