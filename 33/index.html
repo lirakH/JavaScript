@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<style>
+		#name_error{
+			visibility: hidden;
+			color: red;
+		}
+		#age_error{
+			visibility: hidden;
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<h1>Validations using regular expressions</h1>
+
+	<form onsubmit="return validation()" method="">
+		<label>Emri:</label>
+		<input type="text" name="emri" id="name">
+		<span id="name_error">Please enter a valid name</span>
+
+		<br>
+
+		<label>Mosha:</label>
+		<input type="text" name="mosha" id="age">
+		<span id="age_error">Please enter a valid age</span>
+
+		<br>
+		<button type="submit" name="submit">Submit</button>
+	</form>
+
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
